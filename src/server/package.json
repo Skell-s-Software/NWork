@@ -1,0 +1,19 @@
+{
+  "name": "nwork",
+  "version": "1.0.0",
+  "description": "Editor en tiempo real de MarkDown hosteado en servidor local para acceso multiplataforma",
+  "keywords": [
+    "markdown",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "Skell's Software",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
