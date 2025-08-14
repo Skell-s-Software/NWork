@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Metadatos de la Pagina Web -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Datos -->
+        <title>Skell's NWork</title>
+        <!-- Importaciones -->
+        <link rel="stylesheet" href="style.css">
+        <script src="lib/marked.min.js"></script>
+        <script src="lib/mermaid.min.js"></script>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <!-- Editor del texto -->
+        <textarea id="editor">
+# Ejemplo de uso de Mermaid en Markdown
+
+Mermaid es una librería que permite generar diagramas y gráficos a partir de texto. Aquí algunos ejemplos:
+
+## 1. Diagrama de flujo (Flowchart)
+
+```mermaid
+flowchart TD
+    A[Inicio] --> B{¿Es mayor de edad?}
+    B -->|Sí| C[Acceso permitido]
+    B -->|No| D[Acceso denegado]
+    C --> E[Fin]
+    D --> E
+        </textarea>
+        <!-- Vista previa en vivo-->
+        <div id="preview" class="mermaid"></div>
+    </body>
+</html>
