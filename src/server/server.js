@@ -20,5 +20,5 @@ app.get('/', (req, res) => {
 // Iniciar el Servidor
 app.listen(PORT, () => {
     console.log(`Servidor Corriendo en http://localhost:${PORT}`);
-    console.log(`Servidor Corriendo en http://:${LocalIP}:${PORT}`);
+    console.log(`Servidor Corriendo en http://${LocalIP}:${PORT}`);
 });
