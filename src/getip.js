@@ -27,4 +27,5 @@ function obtenerLocalIp() {
 }
 
 console.log('✅ IP local:', obtenerLocalIp());
+
 module.exports = obtenerLocalIp;
