@@ -1,34 +1,43 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Comfortaa, Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
-    background: #ffffff;
+    background: #0D1117;
+    color: white;
 }
 
 #preview, #editor{
-    background: white;
+    background: #0D1117;
+    /* Aspectos de Caja */
     width: 46%;
     height: 91vh;
     overflow-y: scroll;
-    border-radius: 2%;
     padding: 15px;
-    box-shadow: gray 0px 4px 12px;
-    border: 0px;
     margin: 10px;
+    /* Aspectos visuales */
+    border: solid 1px;
+    border-color: #3D444D;
+    border-radius: 1.5em;
+    color: white;
 }
 
-textarea:focus-visible, textarea:focus {
-    border: 0px;
+textarea:focus-visible, textarea:focus, textarea {
     outline: 0px;
+    font-family: Comfortaa;
 }
 
-/* Centrar Fragmentos de codigo y Mermaid*/
+/*
+    Aspectos Visuales de Mermaid
+
+          < Proximamente>
+*/
+
+/* Centrar Fragmentos de codigo y Mermaid */
 pre {
     display: flex;
     justify-content: center;
     border: 0px;
-    border-radius: 2%;
-    box-shadow: lightgray 0px 4px 10px;
+    border-radius: 1.5em;
 }
 
 ::-webkit-scrollbar{
